@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Lato:ital,wght@1,300&family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(imgp.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.headings{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2{
+    margin: 5%;
+}
+
+img{
+    height: 15vh;
+    width: 100%;
+    padding: 2%;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+    margin: 2%;
+    padding: 10%;
+}
+
+.backgroundcolor{
+    background-color: rgb(162, 164, 168, .5);
+    opacity: 0.9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+input{
+    width: 70%;
+    height: 5vh;
+    border: none;
+    border-bottom: solid black;
+    background: transparent;
+    margin: 4%;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+::placeholder {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.button{
+    border: black solid 1px;
+    height: 5vh;
+    text-transform: uppercase;
+    font-weight: bold;
+}
