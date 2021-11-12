@@ -78,7 +78,7 @@ form{
     font-weight: bold;
 }
 
-@media(min-width:426px){
+@media(min-width: 425px){
     body{
         background-image: url(imgt.png);
     }
@@ -91,7 +91,6 @@ form{
 
     .backgroundcolor{
         height: 70vh;
-        /* padding: 5%; */
         justify-content: flex-start;
     }
 
@@ -133,3 +132,21 @@ form{
     }
 }
 
+@media (min-width: 769px){
+    body{
+        background-image: url(imgs.png);
+        background-position: right;
+        background-size: 62% 100%;
+    }
+    .backgroundcolor{
+        background-color: transparent;
+        width: 60%;
+    }
+
+    img{
+        height: 100px;
+        width: 300px;
+        margin: 4%;
+    }
+
+}
